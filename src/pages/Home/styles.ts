@@ -21,7 +21,7 @@ export const Card = styled.section`
 background: #fff;
 width: 100%;
 border-radius: 10px;
-padding: 50px;
+padding: 30px;
 display: flex;
 flex-direction: column;
 gap: 10px;
@@ -31,7 +31,7 @@ gap: 10px;
     justify-content: flex-start;
     gap: 30px;
 img{
-    width: 100px;
+    width: 80px;
 }
 p{
     font-size: 40px;
@@ -46,13 +46,15 @@ p{
 >span{
     color: #23BD98;
     font-size: 25px;
+    text-transform: capitalize;
 }
 }
 >div.details{
 display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 p{
+    font-size: 20px;
     font-weight: 500;
     span{
         font-weight: 400;
