@@ -38,7 +38,7 @@ export function Home() {
     }
 
     async function getWeather(la: any, lo: any) {
-        const key = "e464c153fd6cb6b699854f835116d2fe"
+        const key = "SUA CHAVE AQUI"
         axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${la}&lon=${lo}&lang=pt_br&appid=${key}&units=metric`)
             .then(res => {
                 console.log(res.data)
